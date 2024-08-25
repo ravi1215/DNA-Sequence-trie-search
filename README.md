@@ -16,11 +16,10 @@ This project is a DNA sequence search tool implemented in C++ using a Trie data 
 - `main.cpp`: Contains the main implementation of the Trie, the FASTA file reader, and the command-line interface.
 - `trie.h`: Header file for the `Trie` class and `TrieNode` structure.
 
-## Compilation and Execution
+## How to Build and Run
 
-### Compilation
+1. **Clone the Repository**: Download the project files to your local machine.
 
-To compile the project, navigate to the directory containing `main.cpp` and `trie.h`, then run:
-
-```bash
+2. **Compile the Program**:
+   ```bash
 g++ -std=c++14 main.cpp -o main_program
